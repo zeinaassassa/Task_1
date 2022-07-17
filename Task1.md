@@ -1,13 +1,12 @@
-Install ROS on Ubuntu 20.04
-========
+# Install ROS on Ubuntu 20.04
 
-Configure  Ubuntu repositories:
-========
+# Configure  Ubuntu repositories:
+
 Configure  Ubuntu repositories to allow "restricted," "universe," and "multiverse."
 
 
-Setup sources.list  to accept software from packages.ros.org:
-=========
+###### Setup sources.list  to accept software from packages.ros.org:
+
 > sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
 Set up the keys:
