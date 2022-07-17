@@ -1,4 +1,4 @@
-######Configure  Ubuntu repositories:
+Configure  Ubuntu repositories:
 Configure  Ubuntu repositories to allow "restricted," "universe," and "multiverse."
 
 Setup sources.list  to accept software from packages.ros.org:
