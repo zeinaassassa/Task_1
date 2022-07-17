@@ -30,7 +30,6 @@ Environment setup:
 Dependencies for building packages:
 =======
 Up to now you have installed what you need to run the core ROS packages. To create and manage your own ROS workspaces, there are various tools and requirements that are distributed separately. For example, rosinstall is a frequently used command-line tool that enables you to easily download many source trees for ROS packages with one command. 
-=
 
 > sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
 > sudo apt install python3-rosdep
@@ -42,7 +41,7 @@ With the following, you can initialize rosdep:
 > rosdep update
 
 Now, to test your installation, please proceed to the ROS Tutorials. 
-========
+
 
 To check if the ROS is installed and everything is done, we can write on terminal:
 ========
